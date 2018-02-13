@@ -1,0 +1,71 @@
+.head {
+    background:white;
+}
+
+.Ball-image {
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+text-align: center;
+font-size: 60px;
+color: rgb(243, 161, 8);
+}                                                    
+
+h2 {
+width:20%;
+float: left; 
+padding-left: 2%;
+font-size: 30px;
+padding-bottom: 5%;
+
+}
+
+.instructions {
+    background: rgb(243, 161, 8);
+    width: 100%;
+    height: auto;   
+    font-size: 18px;
+    padding-bottom: 1%; 
+}
+
+p{
+    padding-top: 10px;
+}
+
+.scoreBoard {
+    width: 100%;
+    text-align: center;
+    background: rgb(80, 79, 79);
+    padding: 2%;
+    
+}
+
+.scoreTitle {
+    color: rgb(243, 161, 8);
+    font-size: 50px;
+}
+
+/* #target-number {
+width: 100%;
+/* margin-right: auto;
+margin-left: 10%; 
+} */
+
+/* #total-score {
+width: 100%;
+ text-align: center;
+}  */
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.counter {
+    background: rgb(80, 79, 79);
+}
