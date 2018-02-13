@@ -35,28 +35,29 @@ p{
 }
 
 .scoreBoard {
-    width: 100%;
+    width: auto;
     text-align: center;
     background: rgb(80, 79, 79);
-    padding: 2%;
     
 }
 
 .scoreTitle {
     color: rgb(243, 161, 8);
     font-size: 50px;
+    
 }
 
-/* #target-number {
-width: 100%;
-/* margin-right: auto;
-margin-left: 10%; 
-} */
+#target-number {
+width: auto;
+text-align: center; 
+margin-right: 20%;
+} 
 
-/* #total-score {
-width: 100%;
- text-align: center;
-}  */
+#total-score {
+width: auto;
+margin-right: 20%;
+ /* text-align: center; */
+}  
 
 .images {
     display: block;
@@ -67,5 +68,10 @@ width: 100%;
 }
 
 .counter {
-    background: rgb(80, 79, 79);
+    background: rgb(73, 72, 72);
+    color:rgb(243, 161, 8);
+    height: 100%;
+    font-size: 40px;
+    text-align: center;
+    padding: 2%;
 }
